@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+main {
+    background-color: var(--primary-medium);
+    min-height: 100vh;
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-card {
+    background-color: var(--primary-neutral);
+    border: 1px solid #000;
+    box-shadow: 1rem 1rem; 
+    height: 50rem;
+}
+
+.blog-card, .blog-image {
+    width: 35rem;
+    border-radius: 2rem;
+}
+
+.blog-card .blog-image, .blog-infos {
+    padding: 1rem;
+}
+
+.blog-card .learning, .published, .blog-description {
+    font-size: 1.6rem;
+}
+
+.blog-card .learning, .blog-title, .user-name {
+    font-weight: 900;
+}
+
+.blog-card .learning {
+    background-color: var(--primary-medium);
+    border-radius: 5px;
+    width: 8rem;
+    padding: 5px;
+}
+
+.blog-card .published, .blog-description {
+    font-weight: 500;
+    padding: 1rem 0;
+}
+
+.blog-card .blog-title {
+    font-size: 2.5rem;
+}
+
+.blog-card .blog-description {
+    color: var(--primary-soft-dark);
+}
+
+.blog-card .user-infos {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.user-infos .image-avatar {
+    width: 5rem;
+    padding: 1rem;
+}
+
+.footer {
+    padding-top: 10rem;
+}
