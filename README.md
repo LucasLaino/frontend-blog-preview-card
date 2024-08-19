@@ -26,7 +26,7 @@ Essa é a solução do [Blog preview card challenge on Frontend Mentor](https://
 
 ### Links
 
-- Live Site URL: [Blog Preview Card](https://lucaslaino.github.io/frontend-blog-preview-card/)
+- Live Site URL: [Blog Preview Card](https://lucaslaino.github.io/frontend-mentor-blog-preview-card/)
 
 ## Meu Processo
 
